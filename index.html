@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Country Info Finder</title>
-    <link rel="stylesheet" href="info.js" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Country Info Finder</title>
+  <link rel="stylesheet" href="info.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="info.js"></script> 
-    <header>
-        <h1>🌍 Country Info Finder</h1>
-        <p>Get detailed insights about any country in the world</p>
-      </header>
-    
-      <div class="container">
-        <div class="search-bar">
-          <input
-            type="text"
-            id="countryInput"
-            placeholder="Enter country name..."
-            onkeypress="handleKeyPress(event)"
-          />
-          <button onclick="searchCountry()">🔍 Search</button>
-        </div>
-        <div id="loading" class="loading">Loading...</div>
+  <header>
+    <h1>🌍 Country Info Finder</h1>
+    <p>Get detailed insights about any country in the world</p>
+  </header>
+
+  <div class="container">
+    <div class="search-bar">
+      <input
+        type="text"
+        id="countryInput"
+        placeholder="Enter country name..."
+        onkeypress="handleKeyPress(event)"
+      />
+      <button onclick="searchCountry()">🔍 Search</button>
+    </div>
+
+    <div id="loading" class="loading">Loading...</div>
     <div id="result" class="result"></div>
   </div>
 
   <footer>
     <p>&copy; 2025 Country Info Finder. </p>
   </footer>
+
+  <script src="info.js"></script> 
 </body>
 </html>
