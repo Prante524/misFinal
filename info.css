@@ -1,4 +1,4 @@
-/* Base Styling */
+
 * {
     box-sizing: border-box;
   }
@@ -32,3 +32,57 @@
     gap: 10px;
     margin-bottom: 20px;
   }
+
+  input[type=\"text\"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  button {
+    padding: 12px 20px;
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #003f80;
+  }
+  .result {
+    margin-top: 20px;
+  }
+  .flag {
+    width: 180px;
+    height: auto;
+    border: 2px solid #7cb4d4;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .country-data {
+    line-height: 1.8;
+    font-size: 1.1em;
+  }
+  .loading {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    color: #d63f9f;
+  }
+
+  .country-card {
+    margin-bottom: 30px;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 0.95em;
+  }
+  
